@@ -1,18 +1,21 @@
 # Quick Lamp Stack
 
-Quickly set up a LAMP Stack application regardless of your environment.
+Quickly set up a LAMP Stack for your application regardless of your environment.
 
-The only dependency is Vagrant, which you can install here: https://www.vagrantup.com/downloads.html
+The only dependencies needed are Vagrant and VirtualBox, which you can install using these links
+
+* Vagrant: https://www.vagrantup.com/downloads.html
+* VirtualBox: https://www.virtualbox.org/wiki/Downloads
 
 After downloading and installing, within the quick-lamp directory, include your project in the **public**
 directory and then run
 
-    vagrant up
+    $ vagrant up
 
 This will build the Vagrant box with the necessary LAMP packages included. You can directly access the
 instance using
 
-    vagrant ssh
+    $ vagrant ssh
 
 The credentials/config for each service in the stack is
 
