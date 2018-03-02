@@ -10,7 +10,7 @@ apt-get install -y curl vim git
 apt-get install -y apache2
 
 # Install PHP
-apt-get install -y php5 php5-fpm php5-curl php5-mysql php5-ssh2 php5-gd php5-imap php5-mcrypt
+apt-get install -y php5 php5-fpm php5-curl php5-mysql php5-ssh2 php5-gd php5-imap php5-mcrypt libapache2-mod-php5
 
 # Install MySQL
 echo "mysql-server mysql-server/root_password password password" | debconf-set-selections
