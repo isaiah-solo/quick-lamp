@@ -26,10 +26,4 @@ Apache
 * IP: **127.0.0.1**
 * Port: **8080**
 
-MySQL
-* Host: **127.0.0.1**
-* Database: **mysql**
-* User: **root**
-* Password: **password**
-
 Have fun!
